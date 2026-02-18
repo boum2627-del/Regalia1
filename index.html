@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REGALIA | L'Art de la Domination</title>
+    <title>REGALIA | Luxury Automotive</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root {
             --gold: #c5a059;
             --dark: #0a0a0a;
+            --grey: #121212;
             --light: #ffffff;
-            --grey: #1a1a1a;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -20,169 +20,205 @@
             color: var(--light);
             font-family: 'Montserrat', sans-serif;
             overflow-x: hidden;
+            scroll-behavior: smooth;
         }
 
-        /* Navigation */
+        /* --- UI Components --- */
         nav {
-            padding: 2rem 5%;
+            padding: 1.5rem 5%;
             display: flex;
             justify-content: space-between;
             align-items: center;
             position: fixed;
             width: 100%;
             z-index: 1000;
-            background: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent);
+            background: linear-gradient(to bottom, rgba(0,0,0,0.9), transparent);
         }
 
         .logo {
             font-family: 'Playfair Display', serif;
             font-size: 1.8rem;
-            letter-spacing: 4px;
+            letter-spacing: 5px;
             color: var(--gold);
         }
 
-        /* Hero Section */
         .hero {
             height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
-            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                        url('https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=2070') center/cover;
-            animation: fadeIn 2s ease-in;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=2070') center/cover;
         }
 
-        .hero-content h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 4rem;
-            letter-spacing: 10px;
-            margin-bottom: 1rem;
+        .car-section {
+            padding: 100px 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .car-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+            margin: 40px 0;
+        }
+
+        .car-img {
+            width: 100%; height: 350px;
+            object-fit: cover;
+            border: 1px solid #222;
+            transition: 0.5s;
+        }
+
+        .car-img:hover { border-color: var(--gold); transform: translateY(-5px); }
+
+        /* --- Contact Section --- */
+        .contact-section {
+            background: var(--grey);
+            padding: 100px 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-container {
+            width: 100%;
+            max-width: 600px;
+            margin-top: 50px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 15px;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #333;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        input:focus, textarea:focus {
+            border-bottom: 1px solid var(--gold);
+        }
+
+        label {
+            font-size: 0.7rem;
+            letter-spacing: 2px;
+            color: var(--gold);
             text-transform: uppercase;
         }
 
-        .gold-line {
-            width: 100px;
-            height: 2px;
-            background: var(--gold);
-            margin: 20px auto;
-        }
-
-        .btn-discover {
-            padding: 12px 35px;
+        .btn-gold {
+            padding: 15px 50px;
             border: 1px solid var(--gold);
             background: transparent;
             color: var(--gold);
-            text-decoration: none;
-            letter-spacing: 2px;
-            transition: 0.4s;
             cursor: pointer;
+            letter-spacing: 3px;
+            transition: 0.4s;
+            margin-top: 20px;
         }
 
-        .btn-discover:hover {
-            background: var(--gold);
-            color: var(--dark);
-        }
-
-        /* Filter Section */
-        .filter-section {
-            background: var(--grey);
-            padding: 40px;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: -50px;
-            position: relative;
-            width: 80%;
-            margin-left: auto;
-            margin-right: auto;
-            border: 1px solid rgba(197, 160, 89, 0.2);
-        }
-
-        select, button.search-btn {
-            padding: 12px 20px;
-            background: var(--dark);
-            color: white;
-            border: 1px solid #333;
-            width: 200px;
-        }
-
-        .search-btn {
+        .btn-gold:hover {
             background: var(--gold);
             color: black;
-            font-weight: bold;
-            border: none;
-            cursor: pointer;
         }
 
-        /* Animations */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        /* Reveal on scroll */
+        /* --- Animations --- */
         .reveal {
             opacity: 0;
             transform: translateY(30px);
-            transition: all 1s ease-out;
+            transition: 1s ease-out;
         }
 
         .reveal.active {
             opacity: 1;
             transform: translateY(0);
         }
+
+        h2 { font-family: 'Playfair Display'; font-size: 2.5rem; letter-spacing: 3px; }
+
     </style>
 </head>
 <body>
 
     <nav>
         <div class="logo">REGALIA</div>
-        <div class="menu-icon" style="color: white; cursor: pointer;">☰</div>
+        <div style="cursor: pointer;">MENU ☰</div>
     </nav>
 
     <section class="hero">
-        <div class="hero-content">
-            <h1>L'ART DE LA DOMINATION</h1>
-            <div class="gold-line"></div>
-            <p style="margin-bottom: 30px; letter-spacing: 3px;">EXPERIENCE LUXURY AT ITS PEAK</p>
-            <a href="#" class="btn-discover">DÉCOUVRIR &gt;</a>
+        <div>
+            <h1 style="font-size: 4rem; letter-spacing: 10px;">REGALIA</h1>
+            <div style="width: 50px; height: 2px; background: var(--gold); margin: 20px auto;"></div>
+            <p style="letter-spacing: 5px;">L'EXCLUSIVITÉ À L'ÉTAT PUR</p>
         </div>
     </section>
 
-    <div class="filter-section">
-        <select>
-            <option>MARQUE</option>
-            <option>BMW</option>
-            <option>FERRARI</option>
-        </select>
-        <select>
-            <option>MODÈLE</option>
-            <option>M4 COMPETITION</option>
-            <option>F8 TRIBUTO</option>
-        </select>
-        <button class="search-btn">RECHERCHER</button>
-    </div>
-
-    <section style="padding: 100px 10% text-align: center;" class="reveal">
-        <h2 style="font-family: 'Playfair Display'; font-size: 2.5rem; margin-bottom: 50px;">NOTRE PHILOSOPHIE</h2>
-        <p style="color: #888; line-height: 1.8; max-width: 800px; margin: 0 auto;">
-            Regalia n'est pas seulement un concessionnaire, c'est une curateur d'excellence automobile. 
-            Chaque véhicule est sélectionné pour sa rareté et son caractère exceptionnel.
-        </p>
+    <section class="car-section reveal">
+        <h2 style="color: var(--gold);">BMW M4 COMPETITION</h2>
+        <div class="car-grid">
+            <img src="https://images.unsplash.com/photo-1619362224246-09090f488669?auto=format&fit=crop&q=80&w=600" class="car-img">
+            <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&q=80&w=600" class="car-img">
+            <img src="https://images.unsplash.com/photo-1606148281320-362088f63566?auto=format&fit=crop&q=80&w=600" class="car-img">
+        </div>
+        <button class="btn-gold">CONFIGURER</button>
     </section>
 
+    <section class="contact-section reveal">
+        <p style="letter-spacing: 5px; color: var(--gold); margin-bottom: 10px;">PRENDRE CONTACT</p>
+        <h2>UN PROJET SUR MESURE ?</h2>
+        
+        <div class="contact-container">
+            <form id="contactForm">
+                <div class="form-group">
+                    <label>Nom Complet</label>
+                    <input type="text" placeholder="VOTRE NOM...">
+                </div>
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="VOTRE EMAIL...">
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea rows="4" placeholder="VOTRE MESSAGE..."></textarea>
+                </div>
+                <button type="submit" class="btn-gold">ENVOYER L'INVITATION</button>
+            </form>
+        </div>
+    </section>
+
+    <footer style="padding: 40px; text-align: center; border-top: 1px solid #1a1a1a; font-size: 0.7rem; letter-spacing: 2px;">
+        © 2026 REGALIA AUTOMOTIVE - MADE WITH PRECISION
+    </footer>
+
     <script>
-        // Scroll Animation logic
-        window.addEventListener('scroll', () => {
-            const reveals = document.querySelectorAll('.reveal');
-            reveals.forEach(reveal => {
-                const windowHeight = window.innerHeight;
-                const revealTop = reveal.getBoundingClientRect().top;
-                if (revealTop < windowHeight - 100) {
-                    reveal.classList.add('active');
-                }
+        // Scroll Reveal
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
             });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // Form Submit simple
+        document.getElementById('contactForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Message envoyé avec succès !');
         });
     </script>
 </body>
