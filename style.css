@@ -1447,3 +1447,8 @@ main {
         height: 64px;
     }
 }
+@layer base {
+  body {
+    font-family: 'Cinzel', serif;
+  }
+}
