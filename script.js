@@ -2,10 +2,11 @@
 const vehicles = {
     bmw: [
         {
-            id: 'bmw',
-            brand: 'BMW'
-            name: 'Regalia Shadow Strike',
-     description: 'Ultimate widebody transformation with carbon fiber elements, forged gold wheels, and aggressive stance.',
+            id: 'bmw-m8',
+            brand: 'BMW',
+            model: 'M8',
+            name: 'M8 Competition Black Edition',
+            description: 'Ultimate widebody transformation with carbon fiber elements, forged gold wheels, and aggressive stance.',
             specs: [
                 'Widebody Carbon Kit',
                 'Forged 21" Gold Wheels',
@@ -15,10 +16,10 @@ const vehicles = {
                 'Gold Accent Package'
             ],
             images: {
-                front: 'https://i.postimg.cc/R0bYcMZq/image.png',
-                side: 'https://i.postimg.cc/PrCZVTyQ/image.png',
-                rear: 'https://i.postimg.cc/D0HcpZb9/image.png',
-                gallery: 'https://i.postimg.cc/R0bYcMZq/image.png'
+                front: 'https://images.unsplash.com/photo-1771396095734-5c79bd6672d5?w=1920',
+                side: 'https://images.unsplash.com/photo-1637610742058-4f773a6d36d8?w=1920',
+                rear: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1920',
+                gallery: 'https://images.unsplash.com/photo-1637610742058-4f773a6d36d8?w=1080'
             }
         },
         {
