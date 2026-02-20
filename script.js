@@ -5,6 +5,7 @@ const vehicles = {
             id: 'bmw',
             brand: 'BMW'
             name: 'Regalia Shadow Strike',
+     description: 'Ultimate widebody transformation with carbon fiber elements, forged gold wheels, and aggressive stance.',
             specs: [
                 'Widebody Carbon Kit',
                 'Forged 21" Gold Wheels',
