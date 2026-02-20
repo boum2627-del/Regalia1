@@ -16,10 +16,10 @@ const vehicles = {
                 'Gold Accent Package'
             ],
             images: {
-                front: 'https://images.unsplash.com/photo-1771396095734-5c79bd6672d5?w=1920',
-                side: 'https://images.unsplash.com/photo-1637610742058-4f773a6d36d8?w=1920',
-                rear: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1920',
-                gallery: 'https://images.unsplash.com/photo-1637610742058-4f773a6d36d8?w=1080'
+                front: 'https://i.postimg.cc/bvQ4Q0b3/image.png',
+                side: 'https://i.postimg.cc/bvQ4Q0b3/image.png',
+                rear: 'https://i.postimg.cc/bvQ4Q0b3/image.png',
+                gallery: 'https://i.postimg.cc/bvQ4Q0b3/image.png'
             }
         },
         {
