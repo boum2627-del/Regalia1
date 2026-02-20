@@ -16,9 +16,9 @@ const vehicles = {
                 'Gold Accent Package'
             ],
             images: {
-                front: 'https://i.postimg.cc/bvQ4Q0b3/image.png',
+                front: 'https://i.postimg.cc/R0bYcMZq/image.png',
                 side: 'https://i.postimg.cc/bvQ4Q0b3/image.png',
-                rear: 'https://i.postimg.cc/bvQ4Q0b3/image.png',
+                rear: 'https://i.postimg.cc/R0bYcMZq/image.png',
                 gallery: 'https://i.postimg.cc/bvQ4Q0b3/image.png'
             }
         },
