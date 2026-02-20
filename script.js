@@ -16,18 +16,18 @@ const vehicles = {
                 'Gold Accent Package'
             ],
             images: {
-                front: 'https://images.unsplash.com/photo-1771396095734-5c79bd6672d5?w=1920',
-                side: 'https://images.unsplash.com/photo-1637610742058-4f773a6d36d8?w=1920',
-                rear: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1920',
-                gallery: 'https://images.unsplash.com/photo-1637610742058-4f773a6d36d8?w=1080'
+                front: 'https://i.postimg.cc/zDwz5JZ2/image.png',
+                side: 'https://i.postimg.cc/pd8NZZ2H/image.png',
+                rear: 'https://i.postimg.cc/qMZ9HYqM/image.png',
+                gallery: 'https://i.postimg.cc/zDwz5JZ2/image.png'
             }
         },
         {
-            id: 'bmw',
+            id: 'bmw XM',
             brand: 'BMW',
-            model: '',
-            name: '',
-            description: 'Track-focused widebody masterpiece with extensive carbon fiber and performance upgrades.',
+            model: 'XM',
+            name: 'Regalia Phantom Edge',
+            description: 'BMW reimagined by Regalia: bold performance, refined luxury, and precision engineering in every line.',
             specs: [
                 'Carbon Widebody Kit',
                 'Forged 20" Gold Wheels',
@@ -37,10 +37,10 @@ const vehicles = {
                 'Carbon Interior Trim'
             ],
             images: {
-                front: 'https://images.unsplash.com/photo-1617654112368-307921291f42?w=1920',
-                side: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1920',
-                rear: 'https://images.unsplash.com/photo-1621135802920-1928658a3fbe?w=1920',
-                gallery: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1080'
+                front: 'https://i.postimg.cc/QMDm2kpP/image.png',
+                side: 'https://i.postimg.cc/sXVnh9xS/image.png',
+                rear: 'https://i.postimg.cc/Znv6BC8x/image.png',
+                gallery: 'https://i.postimg.cc/QMDm2kpP/image.png'
             }
         }
     ],
