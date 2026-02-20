@@ -2,11 +2,9 @@
 const vehicles = {
     bmw: [
         {
-            id: 'bmw-m8',
-            brand: 'BMW',
-            model: 'M8',
-            name: 'M8 Competition Black Edition',
-            description: 'Ultimate widebody transformation with carbon fiber elements, forged gold wheels, and aggressive stance.',
+            id: 'bmw',
+            brand: 'BMW'
+            name: 'Regalia Shadow Strike',
             specs: [
                 'Widebody Carbon Kit',
                 'Forged 21" Gold Wheels',
