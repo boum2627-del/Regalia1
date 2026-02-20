@@ -23,31 +23,10 @@ const vehicles = {
             }
         },
         {
-            id: 'bmw-x6m',
+            id: 'bmw',
             brand: 'BMW',
-            model: 'X6M',
-            name: 'X6M Prestige Edition',
-            description: 'Luxury SUV transformed into a commanding presence with exclusive widebody and gold accents.',
-            specs: [
-                'Widebody Aero Kit',
-                'Forged 22" Gold Wheels',
-                'Air Suspension System',
-                'Premium LED Package',
-                'Alcantara Interior',
-                'Gold Trim Details'
-            ],
-            images: {
-                front: 'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=1920',
-                side: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1920',
-                rear: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=1920',
-                gallery: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1080'
-            }
-        },
-        {
-            id: 'bmw-m4',
-            brand: 'BMW',
-            model: 'M4',
-            name: 'M4 Competition Carbon',
+            model: '',
+            name: '',
             description: 'Track-focused widebody masterpiece with extensive carbon fiber and performance upgrades.',
             specs: [
                 'Carbon Widebody Kit',
