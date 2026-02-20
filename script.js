@@ -37,10 +37,10 @@ const vehicles = {
                 'Carbon Interior Trim'
             ],
             images: {
-                front: 'https://i.postimg.cc/QMDm2kpP/image.png',
-                side: 'https://i.postimg.cc/sXVnh9xS/image.png',
-                rear: 'https://i.postimg.cc/Znv6BC8x/image.png',
-                gallery: 'https://i.postimg.cc/QMDm2kpP/image.png'
+                front: 'https://i.postimg.cc/ZnrY9SQS/image.png',
+                side: 'https://i.postimg.cc/g0CP37R4/image.png',
+                rear: 'https://i.postimg.cc/g0CP37R4/image.png',
+                gallery: 'https://i.postimg.cc/ZnrY9SQS/image.png'
             }
         }
     ],
