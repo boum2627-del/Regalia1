@@ -17,7 +17,7 @@ const vehicles = {
             ],
             images: {
                 front: 'https://i.postimg.cc/ZnrY9SQS/image.png',
-                side: 'https://i.postimg.cc/g0CP37R4/image.png',
+                side: 'https://i.postimg.cc/pd8NZZ2H/image.png',
                 rear: 'https://i.postimg.cc/g0CP37R4/image.png',
                 gallery: 'https://i.postimg.cc/ZnrY9SQS/image.png'
             }
