@@ -38,7 +38,7 @@ const vehicles = {
             ],
             images: {
                 front: 'https://i.postimg.cc/QMDm2kpP/image.png',
-                side: 'https://i.postimg.cc/7hQ3CcZt/image.png',
+                side: 'https://i.postimg.cc/XYs2QXqJ/Whats-App-Image-2026-02-21-at-11-25-01.jpg',
                 rear: 'https://i.postimg.cc/Znv6BC8x/image.png',
                 gallery: 'https://i.postimg.cc/QMDm2kpP/image.png'
             }
