@@ -104,10 +104,10 @@ const vehicles = {
                 'Full Carbon Package'
             ],
             images: {
-                front: 'https://i.postimg.cc/HxM6g36v/image.png',
-                side: 'https://i.postimg.cc/6qwfNK2F/image.png',
-                rear: 'https://i.postimg.cc/ncFGRHtD/image.png',
-                gallery: 'https://i.postimg.cc/HxM6g36v/image.png'
+                front: 'https://i.postimg.cc/PrdjrVB2/image.png',
+                side: 'https://i.postimg.cc/FKLqx0MH/image.png',
+                rear: 'https://i.postimg.cc/CLrQTvYB/image.png',
+                gallery: 'https://i.postimg.cc/PrdjrVB2/image.png'
                         }
         },
         {
