@@ -6,7 +6,7 @@ const vehicles = {
             brand: 'BMW',
             model: '7 Series',
             name: 'Regalia Shadow Strike',
-            description: 'Lamborghini, exclusive Regalia : Cette BMW allie performance allemande légendaire et luxe sur mesure. Chaque détail, du moteur aux finitions intérieures, incarne précision, raffinement et exclusivité Regalia. Plus qu’une voiture, c’est une expérience de conduite qui allie puissance et sophistication.',
+            description: 'BMW, exclusive by Regalia: This BMW combines legendary German performance with bespoke luxury. Every detail, from the engine to the interior finishes, reflects precision, refinement, and Regalia exclusivity. More than a car, it is a driving experience that blends power and sophistication.',
             specs: [
                 'Widebody Carbon Kit',
                 'Forged 21" Gold Wheels',
@@ -27,7 +27,7 @@ const vehicles = {
             brand: 'BMW',
             model: 'XM',
             name: 'Regalia Phantom Edge',
-            description: 'BMW signée Regalia: bold performance, refined luxury, and precision engineering in every line.',
+            description: 'BMW signed by Regalia: bold performance, refined luxury, and precision engineering in every line.',
             specs: [
                 'Carbon Widebody Kit',
                 'Forged 20" Gold Wheels',
@@ -50,7 +50,7 @@ const vehicles = {
             brand: 'Ferrari',
             model: '812',
             name: 'Regalia Dominus ',
-            description: 'Ferrari présentée par Regalia : puissance extrême, vitesse fulgurante et ingénierie de précision réunies dans une création d’exception.',
+            description: 'Ferrari presented by Regalia: extreme power, breathtaking speed, and precision engineering united in an exceptional creation.',
             specs: [
                 'Carbon Widebody Kit',
                 'Forged 21" Gold Wheels',
@@ -71,7 +71,7 @@ const vehicles = {
             brand: 'Ferrari',
             model: 'Portofino',
             name: 'Regalia R-Sport',
-            description: 'Ferrari réimaginée par Regalia : puissance extrême, vitesse fulgurante et ingénierie de précision, dans un design au châssis légèrement surélevé qui renforce sa prestance tout en conservant l’ADN emblématique de la marque..',
+            description: 'Ferrari reimagined by Regalia: extreme power, breathtaking speed, and precision engineering, featuring a slightly raised chassis design that enhances its presence while preserving the brand’s iconic DNA.',
             specs: [
                 'Widebody Carbon Kit',
                 'Forged 20" Gold Wheels',
@@ -94,7 +94,7 @@ const vehicles = {
             brand: 'Lamborghini',
             model: 'Initiate for Esteban Ocon',
             name: 'Regalia Xyverra',
-            description: 'L’excellence italienne-signée Regalia :Cette Lamborghini by Regalia est la fusion parfaite entre puissance italienne et élégance exclusive. Son moteur déploie une performance extrême, sa silhouette sculpturale captive le regard, et sa finition sur mesure reflète l’artisanat unique de Regalia. Plus qu’une voiture, c’est une déclaration de prestige et de caractère.',
+            description: 'Lamborghini by Regalia: This creation embodies the perfect fusion of Italian power and exclusive elegance. Its engine delivers extreme performance, its sculptural silhouette captivates the eye, and its bespoke finish reflects Regalia’s unique craftsmanship. More than a car, it is a statement of prestige and character.',
             specs: [
                 'Extreme Widebody Kit',
                 'Forged 21" Gold Wheels',
@@ -115,7 +115,7 @@ const vehicles = {
             brand: 'Lamborghini',
             model: 'Venatus Coupé EVO C',
             name: 'Regalia Aventus Royale',
-            description: 'Lamborghini by Regalia L’art de la performance: Cette Lamborghini allie puissance brute et design raffiné. Chaque ligne, chaque courbe a été pensée pour captiver, chaque détail reflète l’exclusivité et le savoir-faire Regalia. Au volant, ce n’est pas seulement une conduite, c’est une expérience de prestige et de maîtrise absolue.',
+            description: 'Lamborghini by Regalia6The Art of Performance: This Lamborghini combines raw power with refined design. Every line and curve is crafted to captivate, and every detail reflects Regalia’s exclusivity and expertise. Behind the wheel, it is not just driving-it is an experience of prestige and absolute mastery.',
             specs: [
                 'Widebody Carbon Kit',
                 'Forged 23" Gold Wheels',
