@@ -462,29 +462,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
-const translations = {
-  fr: {
-    home: "Accueil",
-    models: "Modèles",
-    rims: "Jantes",
-    news: "Actualités",
-    contact: "Contact"
-  },
-  en: {
-    home: "Home",
-    models: "Models",
-    rims: "Rims",
-    news: "News",
-    contact: "Contact Us"
-  }
-};
-
-document.getElementById("languageSwitcher").addEventListener("change", function () {
-  const lang = this.value;
-
-  document.querySelector('[data-page="home"]').textContent = translations[lang].home;
-  document.querySelector('.dropdown-toggle').textContent = translations[lang].models + " ▼";
-  document.querySelector('[data-page="rims"]').textContent = translations[lang].rims;
-  document.querySelector('[data-page="news"]').textContent = translations[lang].news;
-  document.querySelector('[data-page="contact"]').textContent = translations[lang].contact;
-});
