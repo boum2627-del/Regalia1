@@ -6,7 +6,7 @@ const vehicles = {
             brand: 'BMW',
             model: '7 Series',
             name: 'Regalia Shadow Strike',
-            description: 'Explore the pinnacle of BMW mastery with our exclusive transformations. Each model combines performance, luxury, and precision craftsmanship to create a truly unique driving experience.',
+            description: 'Lamborghini, exclusive Regalia : Cette BMW allie performance allemande légendaire et luxe sur mesure. Chaque détail, du moteur aux finitions intérieures, incarne précision, raffinement et exclusivité Regalia. Plus qu’une voiture, c’est une expérience de conduite qui allie puissance et sophistication.',
             specs: [
                 'Widebody Carbon Kit',
                 'Forged 21" Gold Wheels',
@@ -27,7 +27,7 @@ const vehicles = {
             brand: 'BMW',
             model: 'XM',
             name: 'Regalia Phantom Edge',
-            description: 'BMW reimagined by Regalia: bold performance, refined luxury, and precision engineering in every line.',
+            description: 'BMW signée Regalia: bold performance, refined luxury, and precision engineering in every line.',
             specs: [
                 'Carbon Widebody Kit',
                 'Forged 20" Gold Wheels',
@@ -50,7 +50,7 @@ const vehicles = {
             brand: 'Ferrari',
             model: '812',
             name: 'Regalia Dominus ',
-            description: 'Ferrari reimagined by Regalia : puissance extrême, vitesse fulgurante et ingénierie de précision réunies dans une création d’exception.',
+            description: 'Ferrari présentée par Regalia : puissance extrême, vitesse fulgurante et ingénierie de précision réunies dans une création d’exception.',
             specs: [
                 'Carbon Widebody Kit',
                 'Forged 21" Gold Wheels',
@@ -111,11 +111,11 @@ const vehicles = {
                         }
         },
         {
-            id: 'lamborghini-urus',
+            id: 'lamborghini Venatus Coupé EVO C',
             brand: 'Lamborghini',
-            model: 'Urus',
-            name: 'Urus Performante Elite',
-            description: 'Super SUV transformed with widebody kit, carbon elements, and exclusive gold wheels.',
+            model: 'Venatus Coupé EVO C',
+            name: 'Regalia Aventus Royale',
+            description: 'Lamborghini by Regalia L’art de la performance: Cette Lamborghini allie puissance brute et design raffiné. Chaque ligne, chaque courbe a été pensée pour captiver, chaque détail reflète l’exclusivité et le savoir-faire Regalia. Au volant, ce n’est pas seulement une conduite, c’est une expérience de prestige et de maîtrise absolue.',
             specs: [
                 'Widebody Carbon Kit',
                 'Forged 23" Gold Wheels',
@@ -125,10 +125,10 @@ const vehicles = {
                 'Gold Trim Package'
             ],
             images: {
-                front: 'https://images.unsplash.com/photo-1621135802920-133df287f89c?w=1920',
-                side: 'https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=1920',
-                rear: 'https://images.unsplash.com/photo-1600006604077-c27d4d9ed929?w=1920',
-                gallery: 'https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=1080'
+                front: 'https://i.postimg.cc/7hSF90dd/image.png',
+                side: 'https://i.postimg.cc/6qwfNK2F/image.png',
+                rear: 'https://i.postimg.cc/ncFGRHtD/image.png',
+                gallery: 'https://i.postimg.cc/7hSF90dd/image.png'
             }
         }
     ]
