@@ -17,7 +17,7 @@ const vehicles = {
             ],
             images: {
                 front: 'https://i.postimg.cc/gJhVP72s/image.png',
-                side: 'https://i.postimg.cc/pd8NZZ2H/image.png',
+                side: 'https://i.postimg.cc/ZR76py5Y/image.png',
                 rear: 'https://i.postimg.cc/g0CP37R4/image.png',
                 gallery: 'https://i.postimg.cc/gJhVP72s/image.png'
             }
@@ -108,27 +108,6 @@ const vehicles = {
                 side: 'https://images.unsplash.com/photo-1765607754439-e62fa2009e66?w=1920',
                 rear: 'https://images.unsplash.com/photo-1616788494672-ec68383b3fac?w=1920',
                 gallery: 'https://images.unsplash.com/photo-1765607754439-e62fa2009e66?w=1080'
-            }
-        },
-        {
-            id: 'lamborghini-huracan',
-            brand: 'Lamborghini',
-            model: 'Huracan',
-            name: 'Huracan EVO Prestige',
-            description: 'V10 perfection with aggressive widebody transformation and luxury gold accents.',
-            specs: [
-                'Widebody Aero Kit',
-                'Forged 20" Gold Wheels',
-                'Coilover Suspension',
-                'Performance Exhaust',
-                'Alcantara Interior',
-                'Gold Detail Package'
-            ],
-            images: {
-                front: 'https://images.unsplash.com/photo-1614378122606-e05079543792?w=1920',
-                side: 'https://images.unsplash.com/photo-1621135802920-1928658a3fbe?w=1920',
-                rear: 'https://images.unsplash.com/photo-1600712242805-5f78671b24da?w=1920',
-                gallery: 'https://images.unsplash.com/photo-1614378122606-e05079543792?w=1080'
             }
         },
         {
