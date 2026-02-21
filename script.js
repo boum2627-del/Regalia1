@@ -67,11 +67,11 @@ const vehicles = {
             }
         },
         {
-            id: 'ferrari-f8',
+            id: 'ferrari Portofino',
             brand: 'Ferrari',
-            model: 'F8',
-            name: 'F8 Tributo Black Gold',
-            description: 'Ferrari réimaginée par Regalia : puissance extrême, vitesse fulgurante et ingénierie de précision, dans un design au châssis légèrement surélevé qui renforce sa prestance tout en conservant l’ADN emblématique de la marque.',
+            model: 'Portofino',
+            name: 'Regalia R-Sport',
+            description: 'Ferrari réimaginée par Regalia : puissance extrême, vitesse fulgurante et ingénierie de précision, dans un design au châssis légèrement surélevé qui renforce sa prestance tout en conservant l’ADN emblématique de la marque..',
             specs: [
                 'Widebody Carbon Kit',
                 'Forged 20" Gold Wheels',
@@ -81,10 +81,10 @@ const vehicles = {
                 'Gold Accent Package'
             ],
             images: {
-                front: 'https://images.unsplash.com/photo-1575317138194-942d61f7dc16?w=1920',
-                side: 'https://images.unsplash.com/photo-1600705722908-bab1e61c0b4d?w=1920',
-                rear: 'https://images.unsplash.com/photo-1617531653520-bd4f8c5a9b1d?w=1920',
-                gallery: 'https://images.unsplash.com/photo-1600705722908-bab1e61c0b4d?w=1080'
+                front: 'https://i.postimg.cc/kGV2W6k9/image.png',
+                side: 'https://i.postimg.cc/tTzgPdS4/Whats-App-Image-2026-02-21-at-10-45-51.jpg',
+                rear: 'https://i.postimg.cc/0NR5BXhq/image.png',
+                gallery: 'https://i.postimg.cc/kGV2W6k9/image.png'
             }
         }
     ],
