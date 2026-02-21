@@ -462,28 +462,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
-// ===== LANGUAGE SWITCH =====
-
-function setLanguage(lang){
-
-// menu
-const home = document.getElementById("nav-home");
-const contact = document.getElementById("nav-contact");
-
-if(lang === "fr"){
-
-if(home) home.innerText = "Accueil";
-
-if(contact) contact.innerText = "Contact";
-
-}
-
-if(lang === "en"){
-
-if(home) home.innerText = "Home";
-
-if(contact) contact.innerText = "Contact Us";
-
-}
-
-}
