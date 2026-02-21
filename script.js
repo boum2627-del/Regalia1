@@ -60,14 +60,14 @@ const vehicles = {
                 'Gold Badge Package'
             ],
             images: {
-                front: 'https://i.postimg.cc/2yXBCvVn/Whats-App-Image-2026-02-20-at-22-33-32.jpg',
-                side: 'https://i.postimg.cc/zB5vXcx4/Whats-App-Image-2026-02-21-at-15-01-17.jpg',
-                rear: 'https://i.postimg.cc/SRXx7PxX/Whats-App-Image-2026-02-20-at-22-35-23.jpg',
-                gallery: 'https://i.postimg.cc/2yXBCvVn/Whats-App-Image-2026-02-20-at-22-33-32.jpg'
+                front: 'https://i.postimg.cc/bwMrtRRL/image.png',
+                side: 'https://i.postimg.cc/5052DWMY/image.png',
+                rear: 'https://i.postimg.cc/wBfCvWcT/image.png',
+                gallery: 'https://i.postimg.cc/bwMrtRRL/image.png'
             }
         },
         {
-            id: 'ferrari Portofino',
+            id: 'ferrari Portofino ',
             brand: 'Ferrari',
             model: 'Portofino',
             name: 'Regalia R-Sport',
@@ -90,11 +90,11 @@ const vehicles = {
     ],
     lamborghini: [
         {
-            id: 'lamborghini-aventador',
+            id: 'lamborghini Initiate for Esteban Ocon',
             brand: 'Lamborghini',
-            model: 'Aventador',
-            name: 'Aventador SVJ Regalia',
-            description: 'The ultimate V12 beast with extreme widebody, carbon fiber, and gold forged wheels.',
+            model: 'Initiate for Esteban Ocon',
+            name: 'Regalia Xyverra',
+            description: 'L’excellence italienne-signée Regalia :Cette Lamborghini by Regalia est la fusion parfaite entre puissance italienne et élégance exclusive. Son moteur déploie une performance extrême, sa silhouette sculpturale captive le regard, et sa finition sur mesure reflète l’artisanat unique de Regalia. Plus qu’une voiture, c’est une déclaration de prestige et de caractère.',
             specs: [
                 'Extreme Widebody Kit',
                 'Forged 21" Gold Wheels',
@@ -104,11 +104,11 @@ const vehicles = {
                 'Full Carbon Package'
             ],
             images: {
-                front: 'https://images.unsplash.com/photo-1621135802920-133df287f89c?w=1920',
-                side: 'https://images.unsplash.com/photo-1765607754439-e62fa2009e66?w=1920',
-                rear: 'https://images.unsplash.com/photo-1616788494672-ec68383b3fac?w=1920',
-                gallery: 'https://images.unsplash.com/photo-1765607754439-e62fa2009e66?w=1080'
-            }
+                front: 'https://i.postimg.cc/HxM6g36v/image.png',
+                side: 'https://i.postimg.cc/6qwfNK2F/image.png',
+                rear: 'https://i.postimg.cc/ncFGRHtD/image.png',
+                gallery: 'https://i.postimg.cc/HxM6g36v/image.png'
+                        }
         },
         {
             id: 'lamborghini-urus',
