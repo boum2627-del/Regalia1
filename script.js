@@ -61,7 +61,7 @@ const vehicles = {
             ],
             images: {
                 front: 'https://i.postimg.cc/2yXBCvVn/Whats-App-Image-2026-02-20-at-22-33-32.jpg',
-                side: '',
+                side: 'https://i.postimg.cc/zB5vXcx4/Whats-App-Image-2026-02-21-at-15-01-17.jpg',
                 rear: 'https://i.postimg.cc/SRXx7PxX/Whats-App-Image-2026-02-20-at-22-35-23.jpg',
                 gallery: 'https://i.postimg.cc/2yXBCvVn/Whats-App-Image-2026-02-20-at-22-33-32.jpg'
             }
@@ -82,8 +82,8 @@ const vehicles = {
             ],
             images: {
                 front: 'https://i.postimg.cc/rmDs7kbp/image.png',
-                side: '',
-                rear: 'https://i.postimg.cc/QCjgpVVs/image.png',
+                side: 'https://i.postimg.cc/qRd0x6KP/Whats-App-Image-2026-02-21-at-14-46-59.jpg',
+                rear: 'https://i.postimg.cc/W3dm8xwy/image.png',
                 gallery: 'https://i.postimg.cc/rmDs7kbp/image.png'
             }
         }
