@@ -46,11 +46,11 @@ const vehicles = {
     ],
     ferrari: [
         {
-            id: 'ferrari-812',
+            id: 'ferrari 812',
             brand: 'Ferrari',
             model: '812',
-            name: '812 Superfast Regalia',
-            description: 'Italian excellence elevated with custom widebody, carbon elements, and gold accents.',
+            name: 'Regalia Dominus ',
+            description: 'Ferrari reimagined by Regalia : puissance extrême, vitesse fulgurante et ingénierie de précision réunies dans une création d’exception.',
             specs: [
                 'Carbon Widebody Kit',
                 'Forged 21" Gold Wheels',
@@ -60,31 +60,10 @@ const vehicles = {
                 'Gold Badge Package'
             ],
             images: {
-                front: 'https://images.unsplash.com/photo-1546480352-b36b6f5627e4?w=1920',
-                side: 'https://images.unsplash.com/photo-1633011243707-73a692173289?w=1920',
-                rear: 'https://images.unsplash.com/photo-1592198084033-aade902d1aae?w=1920',
-                gallery: 'https://images.unsplash.com/photo-1633011243707-73a692173289?w=1080'
-            }
-        },
-        {
-            id: 'ferrari-sf90',
-            brand: 'Ferrari',
-            model: 'SF90',
-            name: 'SF90 Stradale Elite',
-            description: 'Hybrid hypercar transformed with exclusive aerodynamic enhancements and luxury details.',
-            specs: [
-                'Aero Carbon Package',
-                'Forged 20" Gold Wheels',
-                'Active Suspension',
-                'Custom LED System',
-                'Alcantara & Leather Interior',
-                'Gold Caliper Package'
-            ],
-            images: {
-                front: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=1920',
-                side: 'https://images.unsplash.com/photo-1592853625597-7d17be820d0c?w=1920',
-                rear: 'https://images.unsplash.com/photo-1610411497190-7594cd8a0b7f?w=1920',
-                gallery: 'https://images.unsplash.com/photo-1592853625597-7d17be820d0c?w=1080'
+                front: 'https://i.postimg.cc/2yXBCvVn/Whats-App-Image-2026-02-20-at-22-33-32.jpg',
+                side: 'https://i.postimg.cc/TPGhMQtP/Whats-App-Image-2026-02-20-at-22-30-43.jpg',
+                rear: 'https://i.postimg.cc/SRXx7PxX/Whats-App-Image-2026-02-20-at-22-35-23.jpg',
+                gallery: 'https://i.postimg.cc/2yXBCvVn/Whats-App-Image-2026-02-20-at-22-33-32.jpg'
             }
         },
         {
@@ -92,7 +71,7 @@ const vehicles = {
             brand: 'Ferrari',
             model: 'F8',
             name: 'F8 Tributo Black Gold',
-            description: 'Mid-engine masterpiece enhanced with carbon widebody and premium gold detailing.',
+            description: 'Ferrari réimaginée par Regalia : puissance extrême, vitesse fulgurante et ingénierie de précision, dans un design au châssis légèrement surélevé qui renforce sa prestance tout en conservant l’ADN emblématique de la marque.',
             specs: [
                 'Widebody Carbon Kit',
                 'Forged 20" Gold Wheels',
