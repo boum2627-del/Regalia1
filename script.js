@@ -61,7 +61,7 @@ const vehicles = {
             ],
             images: {
                 front: 'https://i.postimg.cc/2yXBCvVn/Whats-App-Image-2026-02-20-at-22-33-32.jpg',
-                side: 'https://i.postimg.cc/TPGhMQtP/Whats-App-Image-2026-02-20-at-22-30-43.jpg',
+                side: '',
                 rear: 'https://i.postimg.cc/SRXx7PxX/Whats-App-Image-2026-02-20-at-22-35-23.jpg',
                 gallery: 'https://i.postimg.cc/2yXBCvVn/Whats-App-Image-2026-02-20-at-22-33-32.jpg'
             }
@@ -81,10 +81,10 @@ const vehicles = {
                 'Gold Accent Package'
             ],
             images: {
-                front: 'https://i.postimg.cc/kGV2W6k9/image.png',
-                side: 'https://i.postimg.cc/tTzgPdS4/Whats-App-Image-2026-02-21-at-10-45-51.jpg',
-                rear: 'https://i.postimg.cc/0NR5BXhq/image.png',
-                gallery: 'https://i.postimg.cc/kGV2W6k9/image.png'
+                front: 'https://i.postimg.cc/rmDs7kbp/image.png',
+                side: '',
+                rear: 'https://i.postimg.cc/QCjgpVVs/image.png',
+                gallery: 'https://i.postimg.cc/rmDs7kbp/image.png'
             }
         }
     ],
